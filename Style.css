@@ -1,0 +1,105 @@
+/*inicio da home*/
+body{
+    background: #4b98e0;
+    background: #13293d url(topo.jpg)no-repeat fixed ;
+    height: 100%;
+    width: 98%;
+    margin: 0rem 0rem 0rem 0rem;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.conteudoTopo h4{
+    color: #e8f1f2 ;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+.conteudoTopo a{
+    color: #15516b;
+    text-decoration: none;
+    text-align: end;
+    margin: 1em 1em 1em 1em ;
+    font-size: 1.5em;    
+}
+
+.conteudoTopo a:hover{
+    color: #103672;
+} 
+/*Fim do meu topo*/
+
+/*Começo de do conteudo*/
+
+.grid-container {
+    display: grid;
+    grid-column-gap:50px;
+    grid-template-columns:25em 30em 30em ;
+    margin: 0em 3em 4em 10em ; 
+    padding: 1px;
+  }
+  
+  .grid-item {
+    padding: 10px;
+    font-size:25px;
+    text-align: center;
+  }
+  .grid-item img{
+      image-rendering: auto;
+      height: 60%;
+      width: 100%;
+      border-radius: 50%;
+  }
+
+  .grid-item:hover{
+    color: #103672;
+  }
+  .grid-item  h4{
+      color: #15516b;
+  }
+
+
+.span{
+    color: rgb(119, 110, 110);
+}
+/*Fim da home*/
+
+/*Inicio do cadastra-se*/
+form{
+    font-size: larger;
+    padding: 20px 20px 20px 20px;
+    margin: 10% ;
+}
+button{
+    border-radius: 10%;
+}
+button:hover{
+    color: #103672;
+}
+
+/*Fim do cadastra-se*/
+/*Promomoções inicio*/
+.containerPromocoes {
+    display: grid;
+  grid-template-columns: repeat(3, 2fr); /*200px 200px 200px*/
+  justify-content: center;
+}
+.item img{
+    width: 50%;
+    height: 80 .50%;
+}
+/*Promomoções Fim*/
+
+/*Destino Inicio*/
+ .ContainerDestino{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); /*200px 200px 200px*/
+    justify-content: center;
+}
+.item img{
+    width: 50%;
+    height: 80 .50%;
+}
+ 
+/*Destino Fim*/
